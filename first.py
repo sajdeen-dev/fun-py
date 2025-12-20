@@ -13,5 +13,5 @@
 # print(var2+var3)
 
 
-name = input("Enter your name: ") 
-print("Hello, " + name)
+name = input("Enter your name: ")  
+print("Hello, " + name) 
