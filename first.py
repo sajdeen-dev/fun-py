@@ -14,4 +14,4 @@
 
 
 name = input("Enter your name: ")  
-print("Hello, " + name)  spam
+print("Hello, " + name) 
