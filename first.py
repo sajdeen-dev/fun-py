@@ -18,5 +18,4 @@ print("Hello, " + name)
 
 
 def add(a, b):
-
-car1 = "BMW"
+    return a + b
