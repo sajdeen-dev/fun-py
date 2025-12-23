@@ -18,3 +18,4 @@ print("Hello, " + name)
 
 
 def add(a, b): 
+type(a)
