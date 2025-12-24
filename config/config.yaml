@@ -1,0 +1,9 @@
+model:
+name: "gpt-4o-mini"
+temperature: 0.4
+top_p: 0.9
+max_output_tokens: 1000
+
+debuggingApp:
+explanation_language: "en"
+max_code_chars: 1000
