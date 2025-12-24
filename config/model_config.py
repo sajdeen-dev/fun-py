@@ -32,6 +32,6 @@ def load_config(path: Optional[Path | str] = None) -> AppConfig:
             raise FileNotFoundError(f"Config file not found at {path}")
 
     with open(path, "r") as f:
-        config = yaml.safe_load(f)
+        config = yaml.safe_load(f) # type: ignore
 
     return AppConfig(**config)
