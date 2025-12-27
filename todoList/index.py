@@ -8,11 +8,13 @@ def show_menu():
 
 
 def add_task():
-        print("Enter a task: ")
-
+        task = input("Enter the task: ")
+        tasks.append(task)
+        print("Task added successfully!")
 def delete_task():
     print("Enter the task to delete: ")
-
+    task = input("Enter the task to delete: ")
+    tasks.remove(task)
 def view_tasks():
     print("Your tasks: ")
 
