@@ -8,13 +8,13 @@ def show_menu():
 
 
 def add_task():
-        pass
+        print("Enter a task: ")
 
 def delete_task():
-            pass
+    print("Enter the task to delete: ")
 
 def view_tasks():
-                pass
+    print("Your tasks: ")
 
 while True:
     show_menu()
