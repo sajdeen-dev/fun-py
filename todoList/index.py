@@ -7,24 +7,25 @@ def show_menu():
     print("4. Exit")
 
 
-    def add_task():
+def add_task():
         pass
-        def delete_task():
+
+def delete_task():
             pass
-            def view_tasks():
+
+def view_tasks():
                 pass
 
 while True:
     show_menu()
-
     choice = input("Enter your choice: ")
     if choice == "1":
         add_task()
-        elif choice == "2":
+    elif choice == "2":
             view_tasks()
-        elif choice == "3":
+    elif choice == "3":
             delete_task()
-        elif choice == "4":
+    elif choice == "4":
             break
-        else:
+    else:
             print("Invalid choice")
