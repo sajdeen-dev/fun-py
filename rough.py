@@ -28,3 +28,6 @@ for i in fruits:
 while True:
     print("Hello")
     break
+
+
+    for u in range(10):
