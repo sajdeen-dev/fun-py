@@ -23,3 +23,8 @@ fruits = ['apple','banana','cherry','date','elderberry']
 
 for i in fruits:
     print(i) 
+
+
+while True:
+    print("Hello")
+    break
