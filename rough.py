@@ -19,7 +19,7 @@
 #         print("It's cold")
 
 
-
+fruits = ['apple','banana','cherry','date','elderberry']
 
 for i in fruits:
     print(i) 
