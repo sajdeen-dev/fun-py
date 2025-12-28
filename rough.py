@@ -30,4 +30,4 @@ while True:
     break
 
 
-    for u in range(10):
+    for i in range(10):
