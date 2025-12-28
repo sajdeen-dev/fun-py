@@ -22,4 +22,4 @@
 fruits = ['apple','banana','cherry','date','elderberry']
 
 for i in fruits:
-    print(i)
+    print(i) 
